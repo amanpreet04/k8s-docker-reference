@@ -1,5 +1,5 @@
 # Kubernetes and Docker Guide
-This repository aims to provide a comprehensive guide to containerization with Kubernetes and Docker, offering resources and tutorials to help you master these technologies.
+This repository aims to dump all my learnings in a comprehensive way to help others understand containerization with Kubernetes and Docker. 
 
 ## Why Businesses Love Kubernetes So Much!
 First, let's understand why Kubernetes has so much hype, and why it is the first choice when it comes building and managing applications. The following section breaks down the complicated jargons into smaller understandable components. 
@@ -18,7 +18,6 @@ First, let's understand why Kubernetes has so much hype, and why it is the first
     │   ├── Container
     └── Pod
         ├── Container
-
 ```
 
 
@@ -27,7 +26,7 @@ First, let's understand why Kubernetes has so much hype, and why it is the first
 - **Cluster**: The entire Kubernetes environment containing multiple nodes.
 - **Node**:
   - **Master Node**: Manages the cluster, handling the control plane components responsible for the overall state and operations of the cluster.
-  - **Worker Node**: Runs the application workloads inside pods. Multiple worker nodes can exist in a cluster.
+  - **Worker Node**: Runs the application workloads inside pods. Multiple worker nodes can exist in a cluster. How much memory and cpu will be assigned to these Worker Nodes is communicated through configuration file which is discussed in the next section.
   
 - **Control Plane Components**:
   - **API Server**: The front end of the Kubernetes control plane, exposes the Kubernetes API.
@@ -50,7 +49,6 @@ Container
 ├── System Tools (basic utilities)
 ├── Configuration Files (settings, environment variables)
 ├── Libraries and Binaries
-
 ```
 
 ### Components Explained
