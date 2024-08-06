@@ -73,3 +73,7 @@ A YAML configuration file allows you to define the desired state of various Kube
 - **ConfigMaps and Secrets**: Manage configuration data and sensitive information that your applications need.
 - **CronJobs**: Schedule tasks to run at specific times or intervals.
 - **Global Settings**: Specify configurations that apply cluster-wide, such as resource quotas and limits.
+
+
+## Hands-on Experience for Kubernetes: Minikube
+As the name suggests, Minikube comes with capabilities to simulate Kubernetes on local enviroment. This helps in understanding the working of different components as mentioned above. More can be found [here](https://minikube.sigs.k8s.io/docs/start)
